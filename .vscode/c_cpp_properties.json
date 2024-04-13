@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/sfk6051/SVF/Release-build/svf",
+                "/home/sfk6051/SVF/Release-build/svf-llvm",
+                "/home/sfk6051/SVF/llvm-16.0.0.obj/lib",
+                "/home/sfk6051/SVF/z3.obj/bin",
+                "/home/sfk6051/SVF/Release-build/lib",
+                "/home/sfk6051/SVF/svf-llvm/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
