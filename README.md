@@ -2,10 +2,18 @@
 
 When you get bc or ll file, this program extracts a CFG dot file from what you wanted.
 
+### Build (SVF)
+This version use SVF 3.0 - 2024.04.12 build
+```
+git clone https://github.com/SVF-tools/SVF
+cd SVF
+git reset --hard a7c5c803980e4e05b7ade7361ac08b0a6f0e0754
+./build.sh
+```
 
 ### Build
 ```bash
-source ./env.sh
+# source ./env.sh
 cmake .
 make
 ```
